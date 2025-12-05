@@ -1,207 +1,144 @@
 <!-- BELAJAR JUJUR DALAM MELAKUKAN SEMUA HAL -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Profil TKJ - 07 - DWIKA BIBIT RAHARJO</title>
-    <style>
-      /* --- CSS internal --- */
-      :root {
-        --bg: #4879d4;
-        --card: #2faadb;
-        --accent: #0b5cff;
-        --muted: #666;
-      }
-      body {
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
-        margin: 0;
-        background: var(--bg);
-        color: #222;
-      }
-      .container {
-        max-width: 900px;
-        margin: 32px auto;
-        padding: 24px;
-        background: var(--card);
-        border-radius: 12px;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-      }
-      header {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-      }
-      .header-text {
-        flex: 1;
-      }
-      h1 {
-        margin: 0;
-        font-size: 28px;
-        color: var(--accent);
-      }
-      .role {
-        margin-top: 6px;
-        color: var(--muted);
-      }
-      .photo {
-        width: 150px;
-        height: 150px;
-        border-radius: 8px;
-        object-fit: cover;
-        border: 4px solid #4ba0c2;
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
-      }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Profil TKJ - 07 - DWIKA BIBIT RAHARJO</title>
+  <style>
+    /* --- CSS internal --- */
+    :root{--bg:#32acfc;--card:#f95bcc;--accent:#0b5cff;--muted:#666}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:#222}
+    .container{max-width:900px;margin:32px auto;padding:24px;background:var(--card);border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.06)}
+    header{display:flex;align-items:center;gap:20px}
+    .header-text{flex:1}
+    h1{margin:0;font-size:28px;color:var(--accent)}
+    .role{margin-top:6px;color:var(--muted)}
+    .photo{width:150px;height:150px;border-radius:8px;object-fit:cover;border:4px solid #06262e;box-shadow:0 6px 16px rgba(0,0,0,0.08)}
 
-      .grid {
-        display: grid;
-        grid-template-columns: 1fr 320px;
-        gap: 20px;
-        margin-top: 20px;
-      }
-      .card {
-        background: linear-gradient(0deg, rgb(75, 148, 190), rgba(49, 103, 202, 0.94));
-        padding: 16px;
-        border-radius: 10px;
-      }
-      .section-title {
-        font-weight: 700;
-        margin-bottom: 8px;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-      }
-      table td,
-      table th {
-        padding: 8px;
-        border: 1px solid #eee;
-      }
-      .skills td {
-        padding: 6px;
-      }
-      footer {
-        margin-top: 20px;
-        text-align: center;
-        color: var(--muted);
-        font-size: 14px;
-      }
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:20px}
+    .card{background:linear-gradient(0deg, rgb(54, 93, 210), rgba(44, 168, 210, 0.94));padding:16px;border-radius:10px}
+    .section-title{font-weight:700;margin-bottom:8px}
+    table{width:100%;border-collapse:collapse}
+    table td, table th{padding:8px;border:1px solid #eee}
+    .skills td{padding:6px}
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:14px}
 
-      /* responsive */
-      @media (max-width: 800px) {
-        .grid {
-          grid-template-columns: 1fr;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="header-text">
-          <h1>DWIKA BIBIT RAHARJO</h1>
-          <div class="role">Calon Peserta UKK - Teknik Komputer dan Jaringan (TKJ)</div>
-          <div style="margin-top: 10px; color: var(--muted)">Absensi: 07 &nbsp;|&nbsp; Kelas: 12 TKJ 1</div>
-        </div>
-        <!-- Foto: simpan di folder images/photo.jpg -->
-        <img src="Foto TKJ 1/7.jpg" alt="Foto BIBIT" class="photo" />
-      </header>
+    /* responsive */
+    @media (max-width:800px){.grid{grid-template-columns:1fr}}
 
-      <div class="grid">
-        <main>
-          <section class="card">
-            <div class="section-title">Curriculum Vitae (Singkat)</div>
-            <p><strong>Nama:</strong> DWIKA BIBIT RAHARJO</p>
-            <p><strong>Tanggal Lahir:</strong> 28 APRIL 2007</p>
-            <p><strong>Alamat:</strong> DESA BANARAN KECAMATAN NGAJUM KAB MALANG</p>
-            <p><strong>Kontak:</strong> 088191779034 bitybyy@gmail.com</p>
-            <hr />
-            <div class="section-title">Pendidikan</div>
-            <ul>
-              <li>SMK Budi Mulia Pakisaji — Teknik Komputer & Jaringan</li>
-              <li>SMP NEGERI 02 NGAJUM</li>
-              <li>SDN NEGERI 03 NGAJUM</li>
-            </ul>
+    nav  {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      overflow: hidden;
+      background-color: rgb(41, 27, 239);
+      filter: drop-shadow(0 1px #aaa);
+      padding: 10px;
 
-            <div style="margin-top: 12px" class="section-title">Pengalaman / Portofolio</div>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-
-            <div style="margin-top: 12px" class="section-title">Daftar Pelajaran Produktif TKJ yang Diingat</div>
-            <ul>
-              <li>Teknologi Jaringan luas</li>
-              <li>Infrastruktur Jaringan</li>
-              <li>Pemograman Web</li>
-            </ul>
-          </section>
-
-          <section class="card" style="margin-top: 16px">
-            <div class="section-title">Tabel Keahlian TKJ</div>
-            <table class="skills">
-              <tr>
-                <th>Keahlian</th>
-                <th>Level (1-5)</th>
-              </tr>
-              <tr>
-                <td>[Sesuaikan]</td>
-                <td>[Sesuaikan]</td>
-              </tr>
-              <tr>
-                <td>[Sesuaikan]</td>
-                <td>[Sesuaikan]</td>
-              </tr>
-              <tr>
-                <td>[Sesuaikan]</td>
-                <td>[Sesuaikan]</td>
-              </tr>
-              <tr>
-                <td>[Sesuaikan]</td>
-                <td>[Sesuaikan]</td>
-              </tr>
-            </table>
-          </section>
-
-          <!-- Contoh variasi: jika absen=3 tambahkan kutipan motivasi di bawah ini -->
-          <section class="card" style="margin-top: 16px">
-            <div class="section-title">Home / CV / Portofolio</div>
-            Nama : Dwika Bibit Raharjo<br>
-            Jurusan: Teknik Komputer dan Jaringan <br>
-            keahlian : <ul> <li>Instalasi & konfigurasi jaringan </li>
-                           <li>Linux server (DNS, DHCP, Web Server) </li>
-                           <li> Perakitan & perawatan komputer</li>
-                          <li> IP addressing & subnetting</li>
-                          <li>Mikrotik basic configuration</li>
-            </ul>
-          </section>
-        </main>
-
-        <aside>
-          <section class="card">
-            <div class="section-title">Link & Kontak</div>
-            <p><strong>GitHub:</strong> <a href="https://github.com/bibitraharjo" target="_blank">https://github.com/bibitraharjo</a></p>
-            <p><strong>Portfolio / Deploy:</strong> <a href="https://ukk-nama-tkj.netlify.app" target="_blank">Link Deploy (jika ada)</a></p>
-          </section>
-
-          <section class="card" style="margin-top: 16px">
-            <div class="section-title">Daftar Mata Pelajaran Favorit</div>
-            <ul>
-              <li>Bhs inggris</li>
-              <li>sejarah</li>
-              <li>Olahraga</li>
-            </ul>
-          </section>
-
-          <section class="card" style="margin-top: 16px">
-            <div class="section-title">Footer UKK TKJ</div>
-            <p>SMK Budi Mulia Pakisaji — UKK TKJ © 2025</p>
-          </section>
-        </aside>
+    }
+    nav a{
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 700;
+      color: var(--accent);
+      background-color: rgb(233, 27, 182);
+      padding: 15px 40px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#cv">CV</a>
+      <a href="#port">PORTOFOLIO</a>
+    </nav>
+    <header>
+      <div class="header-text">
+        <h1>DWIKA BIBIT RAHARJO</h1>
+        <div class="role">Calon Peserta UKK - Teknik Komputer dan Jaringan (TKJ)</div>
+        <div style="margin-top:10px;color:var(--muted)">Absensi: 07 &nbsp;|&nbsp; Kelas: XII TKJ 1</div>
       </div>
+      <!-- Foto: simpan di folder images/photo.jpg -->
+      <img src="Foto TKJ 1/7.jpg" alt="Foto DWIKA BIBIT" class="photo">
+    </header>
 
-      <footer>Dibuat oleh Dwika bibit raharjo • Absensi 07• Kelas XII TKJ 1</footer>
+    <div class="grid">
+      <main>
+        <section class="card">
+          <div class="section-title">Curriculum Vitae (Singkat)</div>
+          <p><strong>Nama:</strong> DWIKA BIBIT RAHARJO</p>
+          <p><strong>Tanggal Lahir:</strong> 28 APRIL 2007</p>
+          <p><strong>Alamat:</strong> DESA BANARAN KEC NGAJUM KAB MALANG</p>
+          <p><strong>Kontak:</strong> 0889177034</p>
+          <hr>
+          <div class="section-title">Pendidikan</div>
+          <ul>
+            <li>SMK Budi Mulia Pakisaji — Teknik Komputer & Jaringan</li>
+            <li>SMP NEGERI 02 NGAJUM</li>
+            <li>SD  NEGERI 03 NGAJUM</li>
+          </ul>
+
+          <div style="margin-top:12px" class="section-title">Pengalaman / Portofolio</div>
+          <p>PRAMUKA</p>
+
+          <div style="margin-top:12px" class="section-title">Daftar Pelajaran Produktif TKJ yang Diingat</div>
+          <ul>
+            <li>INFRASTRUKTUR JARINGAN</li>
+            <li>PEMOGRAMAN WEB</li>
+            <li>TEKNOLOGI JARINGAN LUAS</li>
+          </ul>
+
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Tabel Keahlian TKJ</div>
+          <table class="skills">
+            <tr><th>Keahlian</th><th>Level (1-5)</th></tr>
+            <tr><td>TEKNOLOGI JARINGAN LUAS</td><td>4</td></tr>
+            <tr><td>PEMOGRAMAN WEB</td><td>3</td></tr>
+            <tr><td>INFRASTRUKTUR JARINGAN</td><td>4</td></tr>
+            <tr><td>ADSMINISTRASI SISTEM KOMPUTER DAN JARINGAN</td><td>3</td></tr>
+          </table>
+        </section>
+
+        <!-- Contoh variasi: jika absen=3 tambahkan kutipan motivasi di bawah ini -->
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Elemen Tambahan 07</div>
+          <p>Tambahkan NAVIGASI sederhana (Home / CV / Portofolio — anchor saja).</p>
+        </section>
+      </main>
+
+      <aside>
+        <section class="card">
+          <div class="section-title">Link & Kontak</div>
+          <p><strong>GitHub:</strong> <a href="https://github.com/bibitraharjo" target="_blank">https://github.com/bibitraharjo</a></p>
+          <p><strong>Portfolio / Deploy:</strong> <a href="https://ukk-nama-tkj.netlify.app" target="_blank">Link Deploy (jika ada)</a></p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Daftar Mata Pelajaran Favorit</div>
+          <ul>
+            <li>BHS INGGRIS</li>
+            <li>OLAHRAGA</li>
+            <li>SEJARAH</li>
+          </ul>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <div class="section-title">Footer UKK TKJ</div>
+          <p>SMK Budi Mulia Pakisaji — UKK TKJ © 2025</p>
+        </section>
+      </aside>
     </div>
-  </body>
+
+    <footer>
+      Dibuat oleh DWIKA BIBIT RAHARJO • Absensi 07 • Kelas XII TKJ 1
+    </footer>
+  </div>
+</body>
 </html>
